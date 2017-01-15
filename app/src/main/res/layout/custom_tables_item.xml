@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/txtstt_tables_detail"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="1"
+        android:textColor="#fff"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/icon_team_tables"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_weight="0.2"
+        android:src="@drawable/ic_all"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/txtteam_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:paddingLeft="5dp"
+        android:text="Manchester United"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/txtvongdau"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="1"
+        android:textColor="#fff"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/txthieusoTB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="1"
+        android:textColor="#fff"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/txtdiem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="1"
+        android:textColor="#fff"
+        android:gravity="center"/>
+
+</LinearLayout>

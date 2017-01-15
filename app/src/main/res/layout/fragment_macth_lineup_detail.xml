@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MatchLineupDetailFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/lineup_team"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/lineup_team_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#070707"
+                android:text="Substitutes"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <ListView
+                android:id="@+id/lvSubstitutes"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scrollbars="none"></ListView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

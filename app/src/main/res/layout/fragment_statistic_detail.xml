@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.nguyentanluan.myfootball.Stastic.StatisticDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout_statistic_detail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:tabTextColor="#fff"
+        app:tabIndicatorColor="#bcbcbc"
+        app:tabMaxWidth="246dp"
+        app:tabMinWidth="140dp"
+        app:tabSelectedTextColor="#fff"
+        android:background="#707070"
+        app:tabMode="fixed">
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpaper_statistic_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>

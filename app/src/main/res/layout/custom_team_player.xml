@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/txtPlayerNumber"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/imgPlayerAvatar"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"/>
+    <TextView
+        android:id="@+id/txtPlayerName"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:paddingLeft="5dp"
+        android:text="aaaaaaaaaaaaaa"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/txtPlayerValue"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+</LinearLayout>

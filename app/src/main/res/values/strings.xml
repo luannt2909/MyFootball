@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyFootball</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="nav_news">NEWS</string>
+    <string name="nav_matches">MATCHES</string>
+    <string name="nav_tables">TABLES</string>
+    <string name="nav_stats">STATS</string>
+    <string name="nav_champions">CHAMPIONS</string>
+    <string name="nav_favorite">FAVORITE</string>
+    <string name="nav_about">ABOUT</string>
+    <string-array name="nav_drawer_label">
+        <item>@string/nav_news</item>
+        <item>@string/nav_matches</item>
+        <item>@string/nav_tables</item>
+        <item>@string/nav_stats</item>
+        <item>@string/nav_champions</item>
+        <item>@string/nav_about</item>
+    </string-array>
+
+</resources>

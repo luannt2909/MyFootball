@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c6c6c6"
+    tools:context="com.example.nguyentanluan.myfootball.MatchesTeamDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+   <ExpandableListView
+       android:id="@+id/lv_matches_team"
+       android:layout_marginTop="45dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/colorPrimaryDark"
+       android:childDivider="#000"
+       android:cacheColorHint="#fff" ></ExpandableListView>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></Spinner>
+</FrameLayout>

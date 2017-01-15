@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ababab">
+    <Button
+        android:id="@+id/btn_nav_item"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/background_item_hot"
+        android:drawableTop="@drawable/ic_all"
+        android:paddingTop="20dp"
+        android:drawableTint="#00ffbf"
+        android:gravity="center_horizontal"
+        android:text="ALL"
+        android:textColor="#fff"
+        />
+</LinearLayout>
